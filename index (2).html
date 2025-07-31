@@ -1,0 +1,122 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Athlete Profile Cards</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f4f6;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #1f2937;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .photo {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #111827;
+    }
+    .line {
+      font-size: 14px;
+      margin-bottom: 4px;
+      color: #374151;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      margin: 3px;
+    }
+    .button {
+      margin-top: 10px;
+      background-color: #10b981;
+      color: white;
+      padding: 6px 12px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Athlete Profile Cards</h1>
+  <div class="grid">
+
+    <div class="card">
+      <img class="photo" src="https://www.bgca.org/wp-content/uploads/2024/02/7C9FC8ADA0EB467789364B24C97E1FEA.jpeg" alt="Jordan Mitchell">
+      <div class="name">Jordan Mitchell</div>
+      <div class="line">QB @ Ohio State</div>
+      <div class="line">⭐ 4.3 | Score: 88.5</div>
+      <div class="line">💰 $25000 – $40000</div>
+      <div class="line">Trend: Rising | Archetype: Dual Threat</div>
+      <div><span class="tag">Explosive</span><span class="tag">Leader</span></div>
+      <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
+    </div>
+    
+    <div class="card">
+      <img class="photo" src="https://www.shutterstock.com/image-photo/morning-routine-athletic-millennial-black-600nw-2382811539.jpg" alt="Malik Owens">
+      <div class="name">Malik Owens</div>
+      <div class="line">WR @ Alabama</div>
+      <div class="line">⭐ 3.8 | Score: 79.0</div>
+      <div class="line">💰 $10000 – $20000</div>
+      <div class="line">Trend: Stable | Archetype: Deep Threat</div>
+      <div><span class="tag">Fan Favorite</span><span class="tag">Local Hero</span></div>
+      <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
+    </div>
+    
+    <div class="card">
+      <img class="photo" src="https://nkchornets.org/images/2022/12/9/Hailey_Black.png"alt="Meera Carter">
+      <div class="name">Meera Carter</div>
+      <div class="line">RB @ Georgia Bulldogs</div>
+      <div class="line">⭐ 3.7 | Score: 75.2</div>
+      <div class="line">💰 $22000 – $30000</div>
+      <div class="line">Trend: Rising | Archetype: Budget Pick</div>
+      <div><span class="tag">Speedster</span><span class="tag">Underdog</span></div>
+      <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
+    </div>
+    
+    <div class="card">
+      <img class="photo" src="https://img.freepik.com/free-photo/young-happy-smiling-black-man-doing-sports-playing-basketball-sunrise-listening-music-headphones-active-lifestyle-summer-morning_285396-1470.jpg" alt="Diego Torres">
+      <div class="name">Diego Torres</div>
+      <div class="line">TE @ Texas Longhorns</div>
+      <div class="line">⭐ 4.6 | Score: 91.3</div>
+      <div class="line">💰 $45000 – $55000</div>
+      <div class="line">Trend: Falling | Archetype: Red Zone Threat</div>
+      <div><span class="tag">Veteran</span><span class="tag">Clutch</span></div>
+      <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
+    </div>
+    
+  </div>
+</body>
+</html>
