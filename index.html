@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,16 +9,19 @@
       background: #f3f4f6;
       padding: 40px;
     }
+
     h1 {
       text-align: center;
       color: #1f2937;
     }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 24px;
       margin-top: 40px;
     }
+
     .card {
       background: white;
       border-radius: 12px;
@@ -31,6 +31,7 @@
       flex-direction: column;
       align-items: center;
     }
+
     .photo {
       width: 100%;
       height: 200px;
@@ -38,17 +39,20 @@
       border-radius: 8px;
       margin-bottom: 12px;
     }
+
     .name {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 6px;
       color: #111827;
     }
+
     .line {
       font-size: 14px;
       margin-bottom: 4px;
       color: #374151;
     }
+
     .tag {
       display: inline-block;
       background-color: #2563eb;
@@ -58,6 +62,7 @@
       font-size: 12px;
       margin: 3px;
     }
+
     .button {
       margin-top: 10px;
       background-color: #10b981;
@@ -67,10 +72,32 @@
       border-radius: 6px;
       font-size: 13px;
     }
+
+    .social {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social a {
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .instagram {
+      background-color: #e1306c;
+    }
+
+    .twitter {
+      background-color: #1da1f2;
+    }
   </style>
 </head>
 <body>
-  
 
   <h1>Athlete Profile Cards</h1>
   <div class="grid">
@@ -83,9 +110,13 @@
       <div class="line">💰 $25000 – $40000</div>
       <div class="line">Trend: Rising | Archetype: Dual Threat</div>
       <div><span class="tag">Explosive</span><span class="tag">Leader</span></div>
+      <div class="social">
+        <a href="https://instagram.com/jordanQB" class="instagram" target="_blank">📸 Instagram</a>
+        <a href="https://twitter.com/jordanQB" class="twitter" target="_blank">🐦 Twitter</a>
+      </div>
       <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
     </div>
-    
+
     <div class="card">
       <img class="photo" src="https://www.shutterstock.com/image-photo/morning-routine-athletic-millennial-black-600nw-2382811539.jpg" alt="Malik Owens">
       <div class="name">Malik Owens</div>
@@ -94,20 +125,28 @@
       <div class="line">💰 $10000 – $20000</div>
       <div class="line">Trend: Stable | Archetype: Deep Threat</div>
       <div><span class="tag">Fan Favorite</span><span class="tag">Local Hero</span></div>
+      <div class="social">
+        <a href="https://instagram.com/malikWR" class="instagram" target="_blank">📸 Instagram</a>
+        <a href="https://twitter.com/malikWR" class="twitter" target="_blank">🐦 Twitter</a>
+      </div>
       <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
     </div>
-    
+
     <div class="card">
-      <img class="photo" src="https://nkchornets.org/images/2022/12/9/Hailey_Black.png"alt="Meera Carter">
+      <img class="photo" src="https://nkchornets.org/images/2022/12/9/Hailey_Black.png" alt="Meera Carter">
       <div class="name">Meera Carter</div>
       <div class="line">RB @ Georgia Bulldogs</div>
       <div class="line">⭐ 3.7 | Score: 75.2</div>
       <div class="line">💰 $22000 – $30000</div>
       <div class="line">Trend: Rising | Archetype: Budget Pick</div>
       <div><span class="tag">Speedster</span><span class="tag">Underdog</span></div>
+      <div class="social">
+        <a href="https://instagram.com/meeraRB" class="instagram" target="_blank">📸 Instagram</a>
+        <a href="https://twitter.com/meeraRB" class="twitter" target="_blank">🐦 Twitter</a>
+      </div>
       <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
     </div>
-    
+
     <div class="card">
       <img class="photo" src="https://img.freepik.com/free-photo/young-happy-smiling-black-man-doing-sports-playing-basketball-sunrise-listening-music-headphones-active-lifestyle-summer-morning_285396-1470.jpg" alt="Diego Torres">
       <div class="name">Diego Torres</div>
@@ -116,9 +155,13 @@
       <div class="line">💰 $45000 – $55000</div>
       <div class="line">Trend: Falling | Archetype: Red Zone Threat</div>
       <div><span class="tag">Veteran</span><span class="tag">Clutch</span></div>
+      <div class="social">
+        <a href="https://instagram.com/diegoTE" class="instagram" target="_blank">📸 Instagram</a>
+        <a href="https://twitter.com/diegoTE" class="twitter" target="_blank">🐦 Twitter</a>
+      </div>
       <a class="button" href="https://secondwind.pro/" target="_blank">Go to Website</a>
     </div>
-    
+
   </div>
 </body>
 </html>
